@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# The house always wins frontend
 
 As so often in life, things proceeded in an unexpected manner while developing this app. I wasn't able to complete the whole assignment within the timeframe, and resorted to the technology most familiar to me, which happens to be React. Most of the code is thus in this folder, not in the predefined folder I was supposed to use.
 
