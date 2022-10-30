@@ -1,0 +1,90 @@
+.SlotMachine {
+    color: red;
+  }
+
+.loading-image {
+   height: 50px;
+   animation: turner 2s infinite ;
+}
+
+@keyframes turner{
+    from{  transform: rotate(0deg)   }
+    to  {  transform: rotate(360deg) }
+}
+
+#slotMachineTable {
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#start-button {
+    cursor: pointer;
+}
+
+#cash-button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* :root {
+    --animation-time: 2s; 
+  } */
+
+#cash-button:hover {
+    /* background-color:#002ead;
+      transition: 0.7s; */
+      /* animation-name: mover;
+      animation-duration: 1s; */
+}
+
+@keyframes mover{
+    from{  transform: rotate(0deg)   }
+    to  {  transform: rotate(360deg) }
+    
+}
+
+#first-result-column {
+    width: 34%;
+}
+
+#second-result-column {
+    width: 34%;
+}
+
+#third-result-column {
+    width: 34%;
+}
+
+#start-button-div {
+    
+}
+
+#cash-button-div{
+  
+}
+
+.disabled {
+pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
